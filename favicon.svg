@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#2a1a4a"/><stop offset="1" stop-color="#080a1c"/></radialGradient>
+    <radialGradient id="sea" cx="38%" cy="34%" r="70%"><stop offset="0" stop-color="#4fc3ff"/><stop offset="1" stop-color="#0b3a7a"/></radialGradient>
+    <clipPath id="c"><circle cx="256" cy="270" r="150"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g fill="#fff" opacity=".8"><circle cx="90" cy="96" r="3"/><circle cx="420" cy="80" r="2.5"/><circle cx="440" cy="400" r="2"/><circle cx="70" cy="420" r="2.5"/><circle cx="380" cy="150" r="2"/></g>
+  <circle cx="256" cy="270" r="158" fill="#f5cf6b" opacity=".18"/>
+  <circle cx="256" cy="270" r="150" fill="url(#sea)"/>
+  <g clip-path="url(#c)">
+    <path d="M120 210c40-40 90-50 120-30s20 60 60 70 70-20 90 10-10 80-60 90-60-30-100-20-70 40-100 10-50-90-10-130z" fill="#6fbf4a"/>
+    <path d="M120 210c40-40 90-50 120-30 10 7 15 20 16 34-40 10-80 30-120 70-20-20-40-50-16-74z" fill="#e8573f" opacity=".75"/>
+    <path d="M300 250c30 8 50-15 80 0 25 15 0 70-40 85-30 12-55-5-62-30 10-20 6-40 22-55z" fill="#3f7fe8" opacity=".75"/>
+    <path d="M140 330c30-10 60 20 100 15 10 25-10 50-50 55-40 4-70-30-50-70z" fill="#f0b030" opacity=".8"/>
+    <path d="M256 214c-2 30 0 60 44 36M136 280c40-30 80-40 120-66" fill="none" stroke="#fff3c4" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+    <path d="M110 300 l40 0 M360 300 l30 0" stroke="#fff" stroke-width="0"/>
+  </g>
+  <circle cx="256" cy="270" r="150" fill="none" stroke="#9fd8ff" stroke-width="6" opacity=".6"/>
+  <ellipse cx="256" cy="270" rx="210" ry="62" fill="none" stroke="#f5cf6b" stroke-width="7" opacity=".85" transform="rotate(-22 256 270)" stroke-dasharray="560 90"/>
+  <g transform="translate(408 150) rotate(40)">
+    <path d="M0-40c16 14 20 34 18 56l-18 10-18-10c-2-22 2-42 18-56z" fill="#f4f4f4"/>
+    <circle cy="-8" r="7" fill="#4fc3ff"/>
+    <path d="M-18 10l-12 20 14-4zM18 10l12 20-14-4z" fill="#e8573f"/>
+    <path d="M-8 28l8 26 8-26z" fill="#ffb03a"/>
+  </g>
+  <text x="256" y="476" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="64" fill="#f5cf6b" letter-spacing="8">II</text>
+</svg>
