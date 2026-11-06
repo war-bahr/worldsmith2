@@ -1,11 +1,11 @@
 /* Worldsmith II offline shell. Bump CACHE when shipping a new build. */
-const CACHE = 'worldsmith2-v8';
+const CACHE = 'worldsmith2-v9';
 const ASSETS = [
   "./",
   "./assets/cinzel-latin-700-normal-C-gK7hA8.woff",
   "./assets/cinzel-latin-700-normal-Dkw14w9r.woff2",
-  "./assets/index-B0OstZa9.css",
-  "./assets/index-DfI_9kKp.js",
+  "./assets/index-BFd7zne3.js",
+  "./assets/index-B_vq2XZq.css",
   "./favicon.svg",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
