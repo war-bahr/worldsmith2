@@ -1,17 +1,18 @@
 /* Worldsmith II offline shell. Bump CACHE when shipping a new build. */
-const CACHE = 'worldsmith2-v20';
+const CACHE = 'worldsmith2-v20-1';
 const ASSETS = [
   "./",
   "./assets/cinzel-latin-700-normal-C-gK7hA8.woff",
   "./assets/cinzel-latin-700-normal-Dkw14w9r.woff2",
+  "./assets/index-CLNKVvxH.js",
   "./assets/index-HOgDakGk.css",
-  "./assets/index-QiXb6-eV.js",
   "./favicon.svg",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./icons/icon-maskable-512.png",
   "./index.html",
-  "./manifest.webmanifest"
+  "./manifest.webmanifest",
+  "./recover.html"
 ];
 
 self.addEventListener('install', (event) => {
